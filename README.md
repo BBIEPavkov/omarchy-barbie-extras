@@ -26,6 +26,16 @@ The script asks before each piece. Run it again any time to add pieces you skipp
 | Launcher | "Where to, Barbie…" as the menu prompt |
 | Boot and login screens | A BarbieOS logo on black for the boot password screen and the login screen, set again after each `omarchy update` (asks for your password) |
 
+## Fastfetch (Terminal ASCII Art)
+
+A Barbie ASCII art header that shows when you open a terminal. Back up your current config, then copy this one:
+
+```bash
+cp ~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc.bak
+cp ~/.local/share/omarchy-barbie-extras/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+echo "fastfetch" >> ~/.bashrc
+```
+
 ## Uninstall
 
 Removes everything and brings back Omarchy's built-ins:
